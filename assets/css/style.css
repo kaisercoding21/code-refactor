@@ -1,13 +1,24 @@
+/* General page rules */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+a {
+    color: #ffffff; 
+   text-decoration: none;
+}
+
+p {
+   font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
+  /* Header with Nav Links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,15 +44,7 @@ nav li {
     margin-left: 25px;
 }
 
-a {
-     color: #ffffff; 
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*  Main Banner Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -51,6 +54,7 @@ p {
     background-position: center;
 }
 
+  /* Main content of page */
 .content {
     width: 75%;
     display: inline-block;
@@ -75,6 +79,7 @@ p {
     font-size: 36px;
 }
 
+/*  main content image locations */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,6 +90,7 @@ p {
     margin-left: 25px;
 }
 
+/* Sidebar settings */
 .benefits  {
     margin-right: 20px;
     padding: 20px;
@@ -112,7 +118,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Centers the footer text */
 footer {
     padding: 30px;
     clear: both;
